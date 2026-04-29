@@ -30,7 +30,30 @@ BAGIAN 9. PILIHAN MENU : if pilihan == 1: digunakan untuk mengecek apakah user m
 
 BAGIAN 10. MENJALANKAN PROGRAM : if __name__ == "__main__": Baris ini digunakan untuk mengecek apakah file Python sedang dijalankan secara langsung. Jika iya, maka fungsi main() akan dipanggil. main(): digunakan untuk menjalankan program utama. Ketika baris ini dijalankan, program akan mulai menampilkan menu dan menerima input dari user.
 
-D. Output Program :
+
+D. Output Program : <img width="457" height="575" alt="Cuplikan layar 2026-04-29 225123" src="https://github.com/user-attachments/assets/e586bbe7-9f09-4427-b90f-0a69362a33be" />
+<img width="454" height="674" alt="Cuplikan layar 2026-04-29 225215" src="https://github.com/user-attachments/assets/08c19f13-d467-4046-97ac-f9fab4ac2339" />
+<img width="486" height="289" alt="Cuplikan layar 2026-04-29 225146" src="https://github.com/user-attachments/assets/a7c08c6f-6502-4fc2-b551-f547768364ec" />
+<img width="407" height="208" alt="Cuplikan layar 2026-04-29 225527" src="https://github.com/user-attachments/assets/c56e81f6-4697-4e00-9f4c-35119ed6e30b" />
+<img width="404" height="207" alt="Cuplikan layar 2026-04-29 225500" src="https://github.com/user-attachments/assets/d6b18fb4-39f8-4ed1-a77f-1df5666f732a" />
+<img width="513" height="206" alt="Cuplikan layar 2026-04-29 225447" src="https://github.com/user-attachments/assets/c4ce6760-04ff-4b9c-92c9-4496e4e300ad" />
+<img width="540" height="220" alt="Cuplikan layar 2026-04-29 225302" src="https://github.com/user-attachments/assets/722cad35-ad43-4b5a-8e1f-986b00ef6e1d" />
 
 
-E. Link YouTube :
+
+
+
+Saat program dijalankan, akan ditampilkan menu utama yang berisi beberapa pilihan, yaitu: tambah antrian, layani pembeli, tampilkan antrian, hitung jumlah antrian, dan keluar dari program. Program akan terus berjalan dalam perulangan hingga pengguna memilih opsi keluar.
+
+Jika pengguna memilih menu tambah antrian (pilihan 1): maka program akan meminta input berupa nama pembeli, judul film, dan jumlah tiket yang ingin dibeli. Setelah data dimasukkan, program akan menambahkan data tersebut ke dalam antrian di posisi paling belakang (rear). Output yang ditampilkan adalah konfirmasi bahwa pembeli berhasil masuk ke dalam antrian.
+
+Jika pengguna memilih menu layani pembeli (pilihan 2): maka program akan mengambil data pembeli yang berada di posisi paling depan (front) dalam antrian. Data pembeli tersebut akan ditampilkan, meliputi nama, judul film, dan jumlah tiket. Setelah itu, pembeli tersebut akan dihapus dari antrian karena telah selesai dilayani. Jika antrian kosong, maka program akan menampilkan pesan bahwa belum ada pembeli yang bisa dilayani.
+
+Jika pengguna memilih menu tampilkan antrian (pilihan 3): maka program akan menampilkan seluruh daftar pembeli yang ada di dalam antrian secara berurutan, dimulai dari posisi paling depan hingga paling belakang. Setiap pembeli akan ditampilkan dengan nomor urut, nama, judul film, dan jumlah tiket yang dibeli. Jika antrian kosong, maka akan ditampilkan pesan bahwa antrian masih kosong.
+
+Jika pengguna memilih menu hitung jumlah antrian (pilihan 4): maka program akan menghitung jumlah total pembeli yang ada dalam antrian dengan cara menelusuri setiap node pada linked list. Hasil perhitungan tersebut kemudian ditampilkan sebagai jumlah orang dalam antrian.
+
+Jika pengguna memilih menu keluar (pilihan 5): maka program akan menampilkan pesan bahwa program selesai, kemudian menghentikan perulangan dan keluar dari program.
+
+
+E. Link YouTube : https://youtu.be/5xYM-byJd5E?si=kQ5-DemT3pKBufjP
