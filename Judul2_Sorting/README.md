@@ -33,4 +33,4 @@ Setelah semua data dimasukkan, program menampilkan data tiket sebelum diurutkan 
 
 Kemudian program melakukan proses pengurutan menggunakan Insertion Sort berdasarkan harga tiket dari yang termurah sampai yang termahal. Setelah proses pengurutan selesai, data yang ditampilkan menjadi Jumbo - Rp35000, Agak Laen - Rp40000, Ghost In the Cell - Rp50000, dan Dilan - Rp55000. Dari hasil tersebut terlihat bahwa film Ghost In the Cell berpindah ke sebelum Dilan karena harga tiketnya Rp50000 lebih murah daripada harga tiket Dilan yang Rp55000.
 
-E. Link YouTube : 
+E. Link YouTube : https://youtu.be/JdmyVdfzag8?si=oLOduDZdHmMjlREg
