@@ -1,1 +1,1 @@
-## Implementasi Sequential Search pada Pencarian Data Film Bioskop
+## Implementasi Sequential Search pada studi kasus Pencarian Data Film Bioskop
