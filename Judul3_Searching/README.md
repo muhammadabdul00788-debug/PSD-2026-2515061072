@@ -9,7 +9,8 @@ Program ini merupakan implementasi algoritma Sequential Search Sentinel dalam st
 Algoritma Sequential Search Sentinel digunakan dengan cara menambahkan data sementara sebagai penjaga di akhir list agar proses pencarian pasti berhenti. Metode ini tetap cocok digunakan pada data film bioskop yang belum terurut, karena pencarian dilakukan dari awal sampai data yang dicari ditemukan atau sampai mencapai data sentinel.
 
 **C. Source Code :**
-<img width="994" height="3190" alt="code-searching" src="https://github.com/user-attachments/assets/a5514d66-2a3b-4324-b9e0-0836e1217885" />
+<img width="1170" height="3418" alt="code-searching2" src="https://github.com/user-attachments/assets/c0cb710a-a397-421b-b29d-c6e49e21c807" />
+
 
 
 
