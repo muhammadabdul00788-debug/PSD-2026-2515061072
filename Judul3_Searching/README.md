@@ -166,4 +166,4 @@ Setelah semua data dimasukkan, program menampilkan kembali seluruh data film bio
 Kemudian user memasukkan judul film yang ingin dicari, yaitu Mortal Kombat II. Program melakukan proses pencarian menggunakan Sequential Search Sentinel dengan cara memeriksa data film satu per satu dari awal sampai judul film yang dicari ditemukan. Dari hasil pencarian, film Mortal Kombat II ditemukan pada indeks ke-2. Setelah itu, program menampilkan detail film yang ditemukan, yaitu judul film Mortal Kombat II, studio 4, jam tayang 13.00, dan harga tiket Rp45000.
 
 
-**E. Link YouTube :**
+**E. Link YouTube :** https://youtu.be/WMg7QCKISBQ?si=hcuji9Ay5lrezOie
