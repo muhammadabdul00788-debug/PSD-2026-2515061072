@@ -303,5 +303,28 @@ Program menggunakan array/list sebagai media penyimpanan data antrean dengan ban
 `main()` digunakan untuk memanggil fungsi utama program.
 
 **D. Output Program** :
+<img width="630" height="528" alt="WhatsApp Image 2026-05-19 at 16 56 23" src="https://github.com/user-attachments/assets/d693fcdc-8cd5-4b38-9bbb-745b9d590562" />
+
+Pada output program tersebut, user memilih menu `1` yaitu tambah antrean pembeli sebanyak dua kali. Pada input pertama, user memasukkan nama pembeli Akbar dengan judul film Dilan dan jumlah tiket sebanyak 3. Setelah data berhasil dimasukkan, program menampilkan pesan “Pembeli Akbar berhasil masuk antrean” yang menandakan data telah berhasil disimpan ke dalam queue.
+
+Selanjutnya, user kembali memilih menu tambah antrean dan memasukkan data pembeli kedua yaitu Faisal dengan judul film Ghost in the Cell dan jumlah tiket sebanyak 4. Setelah itu, program kembali menampilkan pesan bahwa pembeli berhasil masuk antrean. Karena program menggunakan konsep FIFO (First In First Out), maka urutan antrean saat ini adalah Akbar di posisi paling depan dan Faisal berada di belakang Akbar sesuai urutan saat data dimasukkan.
+
+<img width="626" height="515" alt="WhatsApp Image 2026-05-19 at 16 56 23 (1)" src="https://github.com/user-attachments/assets/37eb3288-59f8-4e6b-bd19-46c3849d0420" />
+
+Pada output program tersebut, user terlebih dahulu memilih menu `1` untuk menambahkan antrean pembeli baru. User memasukkan data pembeli bernama Rahman dengan judul film Spiderman dan jumlah tiket sebanyak 2. Setelah data berhasil dimasukkan, program menampilkan pesan “Pembeli Rahman berhasil masuk antrean” yang menandakan data telah berhasil disimpan ke dalam queue antrean bioskop.
+
+Selanjutnya, user memilih menu `2` yaitu layani pembeli. Program kemudian menampilkan data pembeli Akbar yang sedang dilayani dengan judul film Dilan dan jumlah tiket sebanyak 3. Hal ini terjadi karena program menggunakan konsep FIFO (First In First Out), sehingga pembeli yang pertama kali masuk antrean akan dilayani lebih dahulu dibanding pembeli lain yang masuk setelahnya.
+
+<img width="633" height="686" alt="WhatsApp Image 2026-05-19 at 16 56 23 (2)" src="https://github.com/user-attachments/assets/02495dbb-4653-42e7-b604-51d2b33875fb" />
+
+Pada output program tersebut, user memilih menu `3` yaitu melihat pembeli paling depan pada antrean. Program kemudian menampilkan data pembeli Faisal dengan judul film Ghost in the Cell dan jumlah tiket sebanyak 4. Data tersebut ditampilkan karena setelah pembeli sebelumnya dilayani, Faisal menjadi pembeli yang berada di posisi paling depan pada queue. Pada proses ini data hanya ditampilkan tanpa dihapus dari antrean.
+
+Selanjutnya, user memilih menu `4` untuk menampilkan seluruh antrean pembeli tiket bioskop. Program menampilkan dua data antrean yaitu Faisal di urutan pertama dan Rahman di urutan kedua sesuai urutan antrean yang tersimpan pada queue. Setelah itu, user memilih menu `5` untuk keluar dari program dan program menampilkan pesan “Program selesai.” sebagai tanda bahwa sistem antrean bioskop telah dihentikan.
+
+**E. Link YouTube** :
+
+
+
+
 
 
