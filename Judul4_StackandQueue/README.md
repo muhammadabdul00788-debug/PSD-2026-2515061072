@@ -321,7 +321,7 @@ Pada output program tersebut, user memilih menu `3` yaitu melihat pembeli paling
 
 Selanjutnya, user memilih menu `4` untuk menampilkan seluruh antrean pembeli tiket bioskop. Program menampilkan dua data antrean yaitu Faisal di urutan pertama dan Rahman di urutan kedua sesuai urutan antrean yang tersimpan pada queue. Setelah itu, user memilih menu `5` untuk keluar dari program dan program menampilkan pesan “Program selesai.” sebagai tanda bahwa sistem antrean bioskop telah dihentikan.
 
-**E. Link YouTube** :
+**E. Link YouTube** : https://youtu.be/Fec02FmZy6M
 
 
 
