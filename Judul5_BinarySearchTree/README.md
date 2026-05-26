@@ -368,4 +368,4 @@ User memilih menu 7 untuk mencari nomor kursi terbesar, lalu program menampilkan
 User memilih menu 10 yaitu keluar dari program, lalu program menampilkan pesan “Program selesai.” Hal ini menunjukkan bahwa sistem nomor kursi bioskop sudah dihentikan dan program tidak akan menjalankan menu lainnya lagi. Menu keluar digunakan untuk mengakhiri proses setelah user selesai memasukkan, mencari, atau menampilkan data nomor kursi yang tersimpan di dalam Binary Search Tree.
 
 
-**E. Link YouTube :**
+**E. Link YouTube :** https://youtu.be/tiHMH4zcOa4
