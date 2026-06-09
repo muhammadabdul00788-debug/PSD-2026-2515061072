@@ -230,25 +230,34 @@ Metode yang digunakan dalam program ini adalah Separate Chaining, yaitu cara men
 `main()` digunakan untuk memanggil fungsi utama agar program sistem pencarian tiket bioskop dapat berjalan.
 
 
-**D. Output Program :** <img width="715" height="392" alt="Screenshot 2026-06-09 201827" src="https://github.com/user-attachments/assets/a799382b-9152-4743-948a-e64d7d2c056d" /> 
+**D. Output Program :** 
+
+<img width="715" height="392" alt="Screenshot 2026-06-09 201827" src="https://github.com/user-attachments/assets/a799382b-9152-4743-948a-e64d7d2c056d" /> 
+
 User memilih menu 1 untuk menambahkan data tiket bioskop ke dalam sistem. Pada output tersebut, user memasukkan kode booking 23, nama pembeli agus, judul film dilan, jam tayang 14.00, studio 2, dan nomor kursi 1. Setelah semua data dimasukkan, program menampilkan pesan “Data tiket berhasil ditambahkan.” yang berarti data tiket berhasil disimpan ke dalam hash table. Dalam program ini, kode booking 23 digunakan sebagai key, sedangkan data tiket yang berisi nama, film, jam tayang, studio, dan kursi digunakan sebagai value. Karena menggunakan Hash Map Separate Chaining, kode booking tersebut akan diproses oleh fungsi hash untuk menentukan indeks penyimpanan data.
 
 <img width="597" height="385" alt="Screenshot 2026-06-09 201953" src="https://github.com/user-attachments/assets/7dfe5b6b-b34d-4b47-b271-09f4b028c9b1" />
+
 User memilih menu 1 untuk menambahkan data tiket bioskop ke dalam sistem. Pada output tersebut, user memasukkan kode booking 12, nama pembeli azhari, judul film ayah ini arahnya ke mana, jam tayang 16.00, studio 4, dan nomor kursi 3. Setelah semua data dimasukkan, program menampilkan pesan “Data tiket berhasil ditambahkan.” yang berarti data tiket berhasil disimpan ke dalam hash table. Dalam program ini, kode booking 12 digunakan sebagai key, sedangkan data tiket yang berisi nama pembeli, judul film, jam tayang, studio, dan nomor kursi digunakan sebagai value. Karena menggunakan Hash Map Separate Chaining, kode booking tersebut akan diproses oleh fungsi hash untuk menentukan indeks penyimpanan data.
 
 <img width="547" height="387" alt="Screenshot 2026-06-09 202001" src="https://github.com/user-attachments/assets/85cc5ed6-dc70-4c70-8d53-3493c323e022" />
+
 User memilih menu 1 untuk menambahkan data tiket bioskop ke dalam sistem. Pada output tersebut, user memasukkan kode booking 32, nama pembeli anhar, judul film dilan 1998, jam tayang 20.00, studio 2, dan nomor kursi 4. Setelah semua data dimasukkan, program menampilkan pesan “Data tiket berhasil ditambahkan.” yang berarti data tiket berhasil disimpan ke dalam hash table. Dalam program ini, kode booking 32 digunakan sebagai key, sedangkan data tiket yang berisi nama pembeli, judul film, jam tayang, studio, dan nomor kursi digunakan sebagai value. Karena menggunakan Hash Map Separate Chaining, kode booking tersebut akan diproses oleh fungsi hash untuk menentukan indeks penyimpanan data.
 
 <img width="847" height="351" alt="Screenshot 2026-06-09 202009" src="https://github.com/user-attachments/assets/f12ed513-1489-4e5a-b741-d966f9ef9996" />
+
 User memilih menu 2 untuk mencari data tiket bioskop berdasarkan kode booking. Pada output tersebut, user memasukkan kode booking 12, lalu program berhasil menemukan data tiket yang sesuai dan menampilkan pesan “Data tiket ditemukan!”. Data yang ditampilkan adalah kode booking 12 dengan nama pembeli azhari, judul film ayah ini arahnya ke mana, jam tayang 16.00, studio 4, dan kursi 3. Hal ini menunjukkan bahwa proses pencarian menggunakan Hash Map Separate Chaining berjalan dengan baik, karena program dapat menemukan data tiket berdasarkan key berupa kode booking yang sebelumnya sudah disimpan di dalam hash table.
 
 <img width="618" height="260" alt="Screenshot 2026-06-09 202031" src="https://github.com/user-attachments/assets/906e60d8-8d92-40ce-991a-f4b2267f02ed" />
+
 User memilih menu 3 untuk menghapus data tiket bioskop berdasarkan kode booking. Pada output tersebut, user memasukkan kode booking 32 sebagai data yang ingin dihapus, lalu program menampilkan pesan “Data tiket berhasil dihapus.” Hal ini menunjukkan bahwa data tiket dengan kode booking 32 sebelumnya sudah tersimpan di dalam hash table dan berhasil ditemukan oleh program. Setelah ditemukan, data tersebut dihapus menggunakan fungsi `remove_key`, sehingga kode booking 32 tidak lagi tersimpan di dalam sistem pencarian tiket bioskop.
 
 <img width="814" height="505" alt="Screenshot 2026-06-09 202047" src="https://github.com/user-attachments/assets/1fd02c06-8b41-46a9-97be-af8a94ccca06" />
+
 User memilih menu 4 untuk menampilkan seluruh data tiket bioskop yang tersimpan di dalam hash table. Pada output tersebut, program menampilkan isi hash table dari indeks 0 sampai 9. Data dengan kode booking 12 tersimpan pada indeks 2 karena hasil dari 12 % 10 adalah 2, sedangkan data dengan kode booking 23 tersimpan pada indeks 3 karena hasil dari 23 % 10 adalah 3. Data dengan kode booking 32 sudah tidak muncul karena sebelumnya telah dihapus dari sistem. Indeks lainnya menampilkan `NONE`, yang berarti tidak ada data tiket yang tersimpan pada indeks tersebut.
 
 <img width="542" height="220" alt="Screenshot 2026-06-09 202056" src="https://github.com/user-attachments/assets/f3b4cd8b-8b03-4a7c-84f2-99aa2d2b46de" />
+
 User memilih menu 5 untuk keluar dari program sistem pencarian tiket bioskop. Setelah pilihan tersebut dimasukkan, program menampilkan pesan “Program selesai.” yang berarti perulangan menu dihentikan dan program tidak lagi menerima input dari user. Bagian ini menunjukkan bahwa fitur keluar pada program berjalan dengan baik karena perintah `break` berhasil menghentikan proses menu utama.
 
 
