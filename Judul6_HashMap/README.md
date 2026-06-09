@@ -5,7 +5,9 @@
 
 Metode yang digunakan dalam program ini adalah Separate Chaining, yaitu cara menangani collision atau tabrakan data pada indeks hash yang sama. Jika terdapat beberapa kode booking yang menghasilkan indeks yang sama, maka data tersebut akan disimpan dalam bentuk linked list pada indeks tersebut. Program ini juga menyediakan fitur untuk menambahkan data tiket, mencari data tiket, menghapus data tiket, dan menampilkan seluruh isi hash table.
 
-**C. Source Code :** <img width="1186" height="5622" alt="code-snapshot32" src="https://github.com/user-attachments/assets/ccf10a20-6c17-442a-825e-aaaf181bab0f" />
+**C. Source Code :** 
+
+<img width="1186" height="5622" alt="code-snapshot32" src="https://github.com/user-attachments/assets/ccf10a20-6c17-442a-825e-aaaf181bab0f" />
 
 **BAGIAN 1. BAGIAN CLASS NODE:**
 
